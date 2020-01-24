@@ -1,0 +1,44 @@
+.dark_button__wrapper{
+    color: #c8c8c8;
+}
+
+.dark_button__wrapper:hover{
+    background: var(--header-background-hover);
+}
+
+.dark_button__wrapper:active{
+    background: #a0a0a0;
+    color: var(--header-background-hover);
+}
+
+.light_button__wrapper{
+    background: #f2ca01;
+    color: var(--header-background-hover);
+}
+
+.light_button__wrapper:hover{
+    background: #d6b201;
+}
+
+.light_button__wrapper:active{
+    background: #404040;
+    color: #f2ca01;
+}
+
+.default_button__wrapper{
+    padding: 5px 10px;
+    margin: 5px 10px;
+
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 1.3em;
+
+    transition: 0.1s;
+}
+
+.default_button__wrapper:active{
+    border-radius: 2px;
+    transform: scale(1.1);
+    transition: 0.06s;
+}
