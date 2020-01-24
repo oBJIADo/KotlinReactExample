@@ -17,6 +17,8 @@ fun main(args: Array<String>) {
 
     render(document.getElementById("app")) {
         div(classes = "picture__wrapper") {
+            appHeader()
+            appBody()
         }
     }
 }

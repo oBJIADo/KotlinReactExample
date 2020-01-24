@@ -1,0 +1,28 @@
+.picture__wrapper {
+    width: 1400px;
+    height: 100%;
+    display: block;
+
+    margin: 0 auto;
+}
+
+.picture__wrapper::after {
+    content: "";
+    background: url("/static/images/background.png") no-repeat center 100px;
+    background-size: 1400px;
+
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+
+    background: var(--background);
+}

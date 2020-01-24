@@ -1,0 +1,16 @@
+.header_menu__wrapper{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 10px;
+}
+
+.header_menu__wrapper ul{
+    list-style-type: none;
+}
+
+.header_menu__wrapper li {
+    float: left;
+}

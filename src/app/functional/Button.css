@@ -37,6 +37,9 @@
     transition: 0.1s;
 }
 
+.default_button__wrapper:hover{
+}
+
 .default_button__wrapper:active{
     border-radius: 2px;
     transform: scale(1.1);

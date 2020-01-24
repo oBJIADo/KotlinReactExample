@@ -1,0 +1,6 @@
+.logo__wrapper{
+    width: 200px;
+    height: 150px;
+
+    background: url("/static/images/logo.png") no-repeat center;
+}
